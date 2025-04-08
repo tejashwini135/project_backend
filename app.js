@@ -15,6 +15,7 @@ const express = require('express');
  app.use(express.json());
 
 
+
  mongoose.connect('mongodb+srv://tejashwiniburadi1:TL7xSWPEvc9TCIbp@cluster0.8ihhobo.mongodb.net/?retryWrites=true&w=majority')
  .then(()=>{
      console.log("db is connected")
